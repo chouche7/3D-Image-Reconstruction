@@ -4,7 +4,7 @@ import numpy as np
 
 def plot_mesh(pc, invert=True, color="height"):
     """
-    esimmates normals for a point cloud and reconstructs a
+    estimates normals for a point cloud and reconstructs a
     triangle mesh using poisson surface reconstruction
     """
     #inverts the z axis if requested
